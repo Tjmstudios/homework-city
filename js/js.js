@@ -1,10 +1,11 @@
-var city = new Array(); //declare an empty array which will be used by our code later
-
 $(document).ready(function(){
+ var city = new Array(); //declare an empty array which will be used by our code later
+
+
 
 	populateCityNameAndImagePaths(); //Populate data on page load
 
-});
+
 
 $("#submit-btn").on("click",function(evt){ //Bind the click event on Submit button
 
@@ -64,4 +65,5 @@ function populateCityNameAndImagePaths(){ //This function prepopulate the data
 	city['SYDNEY'] = 'images/sydney.jpg';
 	city['SYD'] = 'images/sydney.jpg';
 
-};
+ };
+});
